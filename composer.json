@@ -1,0 +1,15 @@
+{
+    "name": "leviathan/registry-dev",
+    "description": "Small PHP 5.4 Registry (development project)",
+    "license": "PHP License (http://www.php.net/license/3_01.txt)",
+    "authors": [
+        {
+            "name": "Anderson Casimiro",
+            "email": "o@duodra.co"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+
+    }
+}

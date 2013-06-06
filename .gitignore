@@ -1,6 +1,6 @@
-/vendor/
+vendor/
 .kdev4/
 registry-dev.kdev4
 registry-dev.php
-
+report/
 

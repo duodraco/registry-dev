@@ -44,4 +44,9 @@ class BaseTest extends \PHPUnit_Framework_TestCase
         $this->object->fill($this->test);
         $this->assertEquals('Leviathan',$this->object->retrieve('c:new:namespace'));
     }
+    public function testNonRetrieve()
+    {
+        $this->object->fill($this->test);
+        $this->assertEquals(null,$this->object->retrieve('c:old:namespace'));
+    }
 }
